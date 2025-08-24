@@ -48,28 +48,36 @@ class RealisticSalesDataGenerator:
                 'ELEC_002': {'name': 'Laptop', 'price': 999, 'margin': 0.12, 'seasonality': 'back_to_school'},
                 'ELEC_003': {'name': 'Headphones', 'price': 199, 'margin': 0.25, 'seasonality': 'holiday'},
                 'ELEC_004': {'name': 'Tablet', 'price': 499, 'margin': 0.18, 'seasonality': 'holiday'},
-                'ELEC_005': {'name': 'Smart Watch', 'price': 299, 'margin': 0.20, 'seasonality': 'fitness'}
+                'ELEC_005': {'name': 'Smart Watch', 'price': 299, 'margin': 0.20, 'seasonality': 'fitness'},
+                'ELEC_006': {'name': 'Monitor', 'price': 1099, 'margin': 0.25, 'seasonality': 'back_to_school'},
+                'ELEC_007': {'name': 'USB Drive', 'price': 99, 'margin': 0.15, 'seasonality': 'holiday'},
             },
             'Clothing': {
                 'CLTH_001': {'name': 'T-Shirt', 'price': 29, 'margin': 0.50, 'seasonality': 'summer'},
                 'CLTH_002': {'name': 'Jeans', 'price': 79, 'margin': 0.45, 'seasonality': 'all_year'},
                 'CLTH_003': {'name': 'Jacket', 'price': 149, 'margin': 0.40, 'seasonality': 'winter'},
                 'CLTH_004': {'name': 'Dress', 'price': 89, 'margin': 0.48, 'seasonality': 'summer'},
-                'CLTH_005': {'name': 'Shoes', 'price': 119, 'margin': 0.42, 'seasonality': 'all_year'}
+                'CLTH_005': {'name': 'Shoes', 'price': 119, 'margin': 0.42, 'seasonality': 'all_year'},
+                'CLTH_006': {'name': 'Sweater', 'price': 69, 'margin': 0.44, 'seasonality': 'winter'},
+                'CLTH_007': {'name': 'Shorts', 'price': 39, 'margin': 0.47, 'seasonality': 'summer'}
             },
             'Home': {
                 'HOME_001': {'name': 'Coffee Maker', 'price': 79, 'margin': 0.30, 'seasonality': 'holiday'},
                 'HOME_002': {'name': 'Blender', 'price': 49, 'margin': 0.35, 'seasonality': 'summer'},
                 'HOME_003': {'name': 'Vacuum Cleaner', 'price': 199, 'margin': 0.28, 'seasonality': 'spring'},
                 'HOME_004': {'name': 'Air Purifier', 'price': 149, 'margin': 0.32, 'seasonality': 'all_year'},
-                'HOME_005': {'name': 'Toaster', 'price': 39, 'margin': 0.40, 'seasonality': 'holiday'}
+                'HOME_005': {'name': 'Toaster', 'price': 39, 'margin': 0.40, 'seasonality': 'holiday'},
+                'HOME_006': {'name': 'Water Dispenser', 'price': 59, 'margin': 0.20, 'seasonality': 'all_year'},
+                'HOME_007': {'name': 'Gas Cooker', 'price': 199, 'margin': 0.25, 'seasonality': 'winter'}
             },
             'Sports': {
                 'SPRT_001': {'name': 'Yoga Mat', 'price': 29, 'margin': 0.55, 'seasonality': 'fitness'},
                 'SPRT_002': {'name': 'Dumbbells', 'price': 49, 'margin': 0.45, 'seasonality': 'fitness'},
                 'SPRT_003': {'name': 'Running Shoes', 'price': 129, 'margin': 0.38, 'seasonality': 'spring'},
                 'SPRT_004': {'name': 'Bicycle', 'price': 399, 'margin': 0.25, 'seasonality': 'summer'},
-                'SPRT_005': {'name': 'Tennis Racket', 'price': 89, 'margin': 0.35, 'seasonality': 'summer'}
+                'SPRT_005': {'name': 'Tennis Racket', 'price': 89, 'margin': 0.35, 'seasonality': 'summer'},
+                'SPRT_006': {'name': 'Basketball', 'price': 35, 'margin': 0.50, 'seasonality': 'all-season'},
+                'SPRT_007': {'name': 'Ski Jacket', 'price': 159, 'margin': 0.40, 'seasonality': 'winter'}
             }
         }
 
@@ -102,7 +110,7 @@ class RealisticSalesDataGenerator:
             for event_name, month, day, duration, discount in major_events:
                 if event_name == 'Black Friday':
                     # Calculate 25th Thursday of November, then add 1 for Friday
-                    november = pd.Timestamp(year, 11, 1)
+                    november = pd.Timestamp(year=year, month=11, day=1)
                     thursdays = pd.date_range(november, november + timedelta(days=30), freq='W-THU')
                     event_date = thursdays[3] + timedelta(days=1)
                 else:
@@ -126,7 +134,7 @@ class RealisticSalesDataGenerator:
                                     "discount_percent": discount,
                                     "promotion_type": event_name
                                 })
-                current_date = current_date + pd.DateOffset(years=1)
+            current_date = current_date + pd.DateOffset(years=1)
         # Add random flash sales
         n_flash_sales = int((self.end_date - self.start_date).days * 0.05)  # 5% of days
         flash_dates = pd.date_range(self.start_date, self.end_date, periods=n_flash_sales)
