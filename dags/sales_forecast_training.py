@@ -14,6 +14,8 @@ root = Path(__file__).resolve().parents[2]
 sys.path.append(str(root))
 from include.utils.logging_utils import setup_logging
 
+setup_logging(root / "dags.log")
+
 sys.path.append("/usr/local/airflow/include")
 default_args = {
     "owner": "olawoyetaofeek",
@@ -45,6 +47,7 @@ def sales_forecast_training():
         )
         logging.info("Generating realistic sales data.....")
         file_path = generator.generate_sales_data(output_dir=data_output_dir)
+        logging.info("Saving the generated Data!!")
 
 
 
