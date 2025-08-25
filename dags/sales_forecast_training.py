@@ -6,25 +6,26 @@ from airflow.decorators import dag, task
 import sys
 from include.utils.data_generator import RealisticSalesDataGenerator
 import logging
+
 from include.utils.logging_utils import setup_logging
 from pathlib import Path
+# Local imports
 root = Path(__file__).resolve().parents[2]
 sys.path.append(str(root))
-
-# Create logs folder if it doesn't exist
-log_dir = root / "logs"
-log_dir.mkdir(exist_ok=True)
-setup_logging(f"{log_dir}/sales_forecast_training.log")
+from include.utils.logging_utils import setup_logging
 
 sys.path.append("/usr/local/airflow/include")
 default_args = {
     "owner": "olawoyetaofeek",
     "depend_on_past": False,
-    "start_date": datetime(2025, 8, 22),
+    "start_date": datetime(2025, 8, 26),
     "retries": 1,
     "retry_delay": timedelta(minutes=1),
+    "email_on_failure": True,
+    "email_on_retry": True,
     "catchup": False,
     "schedule": "@weekly",
+    "email": ["oladipupoolawoye26@gmail.com"]
 }
 
 @dag(

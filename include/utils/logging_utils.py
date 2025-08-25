@@ -12,10 +12,10 @@ def setup_logging(log_file_path: Path) -> None:
     # Ensure the parent directory exists
     log_file_path.parent.mkdir(parents=True, exist_ok=True)
 
-    # # Clear existing logging handlers (avoid duplicates across multiple calls)
-    # root_logger = logging.getLogger()
-    # if root_logger.hasHandlers():
-    #     root_logger.handlers.clear()
+    # Clear existing logging handlers (avoid duplicates across multiple calls)
+    root_logger = logging.getLogger()
+    if root_logger.hasHandlers():
+        root_logger.handlers.clear()
 
     # Configure global logging
     logging.basicConfig(

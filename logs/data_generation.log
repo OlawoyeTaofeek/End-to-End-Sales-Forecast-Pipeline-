@@ -1,0 +1,134 @@
+2025-08-25 08:36:15,096 - INFO - [data_generator.py:104] - Promotions generated successfully
+2025-08-25 08:36:15,105 - INFO - [data_generator.py:116] - Closure dates [Timestamp('2021-01-01 00:00:00'), Timestamp('2021-10-01 12:00:00'), Timestamp('2022-07-02 00:00:00'), Timestamp('2023-04-01 12:00:00'), Timestamp('2023-12-31 00:00:00')] generated for store store_001
+2025-08-25 08:36:15,105 - INFO - [data_generator.py:116] - Closure dates [Timestamp('2021-01-01 00:00:00'), Timestamp('2023-12-31 00:00:00')] generated for store store_002
+2025-08-25 08:36:15,105 - INFO - [data_generator.py:146] - Grand opening (9 days) generated for store store_002
+2025-08-25 08:36:15,105 - INFO - [data_generator.py:116] - Closure dates [Timestamp('2021-01-01 00:00:00'), Timestamp('2021-12-31 16:00:00'), Timestamp('2022-12-31 08:00:00'), Timestamp('2023-12-31 00:00:00')] generated for store store_003
+2025-08-25 08:36:15,105 - INFO - [data_generator.py:130] - Renovation of 26 days generated for store store_003
+2025-08-25 08:36:15,116 - INFO - [data_generator.py:116] - Closure dates [Timestamp('2021-01-01 00:00:00'), Timestamp('2022-07-02 00:00:00'), Timestamp('2023-12-31 00:00:00')] generated for store store_004
+2025-08-25 08:36:15,116 - INFO - [data_generator.py:146] - Grand opening (3 days) generated for store store_004
+2025-08-25 08:36:15,117 - INFO - [data_generator.py:116] - Closure dates [Timestamp('2021-01-01 00:00:00'), Timestamp('2021-12-31 16:00:00'), Timestamp('2022-12-31 08:00:00'), Timestamp('2023-12-31 00:00:00')] generated for store store_005
+2025-08-25 08:36:15,117 - INFO - [data_generator.py:146] - Grand opening (10 days) generated for store store_005
+2025-08-25 08:36:15,118 - INFO - [data_generator.py:116] - Closure dates [Timestamp('2021-01-01 00:00:00'), Timestamp('2021-12-31 16:00:00'), Timestamp('2022-12-31 08:00:00'), Timestamp('2023-12-31 00:00:00')] generated for store store_006
+2025-08-25 08:36:15,118 - INFO - [data_generator.py:130] - Renovation of 25 days generated for store store_006
+2025-08-25 08:36:15,118 - INFO - [data_generator.py:146] - Grand opening (5 days) generated for store store_006
+2025-08-25 08:36:15,118 - INFO - [data_generator.py:116] - Closure dates [Timestamp('2021-01-01 00:00:00'), Timestamp('2023-12-31 00:00:00')] generated for store store_007
+2025-08-25 08:36:15,118 - INFO - [data_generator.py:146] - Grand opening (7 days) generated for store store_007
+2025-08-25 08:36:15,121 - INFO - [data_generator.py:116] - Closure dates [Timestamp('2021-01-01 00:00:00'), Timestamp('2021-10-01 12:00:00'), Timestamp('2022-07-02 00:00:00'), Timestamp('2023-04-01 12:00:00'), Timestamp('2023-12-31 00:00:00')] generated for store store_008
+2025-08-25 08:36:15,121 - INFO - [data_generator.py:146] - Grand opening (7 days) generated for store store_008
+2025-08-25 08:36:15,121 - INFO - [data_generator.py:116] - Closure dates [Timestamp('2021-01-01 00:00:00'), Timestamp('2023-12-31 00:00:00')] generated for store store_009
+2025-08-25 08:36:15,121 - INFO - [data_generator.py:130] - Renovation of 7 days generated for store store_009
+2025-08-25 08:36:15,121 - INFO - [data_generator.py:146] - Grand opening (8 days) generated for store store_009
+2025-08-25 08:36:15,121 - INFO - [data_generator.py:116] - Closure dates [Timestamp('2021-01-01 00:00:00'), Timestamp('2021-12-31 16:00:00'), Timestamp('2022-12-31 08:00:00'), Timestamp('2023-12-31 00:00:00')] generated for store store_010
+2025-08-25 08:36:15,123 - INFO - [data_generator.py:146] - Grand opening (3 days) generated for store store_010
+2025-08-25 08:36:15,123 - INFO - [data_generator.py:163] - Store events DataFrame created with 145 rows
+2025-08-25 08:37:49,766 - INFO - [data_generator.py:104] - Promotions generated successfully
+2025-08-25 08:37:49,784 - INFO - [data_generator.py:116] - Closure dates [Timestamp('2021-01-01 00:00:00'), Timestamp('2021-12-31 16:00:00'), Timestamp('2022-12-31 08:00:00'), Timestamp('2023-12-31 00:00:00')] generated for store store_001
+2025-08-25 08:37:49,784 - INFO - [data_generator.py:116] - Closure dates [Timestamp('2021-01-01 00:00:00'), Timestamp('2023-12-31 00:00:00')] generated for store store_002
+2025-08-25 08:37:49,784 - INFO - [data_generator.py:130] - Renovation of 26 days generated for store store_002
+2025-08-25 08:37:49,784 - INFO - [data_generator.py:116] - Closure dates [Timestamp('2021-01-01 00:00:00'), Timestamp('2023-12-31 00:00:00')] generated for store store_003
+2025-08-25 08:37:49,784 - INFO - [data_generator.py:146] - Grand opening (7 days) generated for store store_003
+2025-08-25 08:37:49,784 - INFO - [data_generator.py:116] - Closure dates [Timestamp('2021-01-01 00:00:00'), Timestamp('2023-12-31 00:00:00')] generated for store store_004
+2025-08-25 08:37:49,784 - INFO - [data_generator.py:116] - Closure dates [Timestamp('2021-01-01 00:00:00'), Timestamp('2022-07-02 00:00:00'), Timestamp('2023-12-31 00:00:00')] generated for store store_005
+2025-08-25 08:37:49,784 - INFO - [data_generator.py:130] - Renovation of 20 days generated for store store_005
+2025-08-25 08:37:49,784 - INFO - [data_generator.py:116] - Closure dates [Timestamp('2021-01-01 00:00:00'), Timestamp('2022-07-02 00:00:00'), Timestamp('2023-12-31 00:00:00')] generated for store store_006
+2025-08-25 08:37:49,784 - INFO - [data_generator.py:116] - Closure dates [Timestamp('2021-01-01 00:00:00'), Timestamp('2021-10-01 12:00:00'), Timestamp('2022-07-02 00:00:00'), Timestamp('2023-04-01 12:00:00'), Timestamp('2023-12-31 00:00:00')] generated for store store_007
+2025-08-25 08:37:49,784 - INFO - [data_generator.py:146] - Grand opening (4 days) generated for store store_007
+2025-08-25 08:37:49,784 - INFO - [data_generator.py:116] - Closure dates [Timestamp('2021-01-01 00:00:00'), Timestamp('2021-12-31 16:00:00'), Timestamp('2022-12-31 08:00:00'), Timestamp('2023-12-31 00:00:00')] generated for store store_008
+2025-08-25 08:37:49,784 - INFO - [data_generator.py:130] - Renovation of 16 days generated for store store_008
+2025-08-25 08:37:49,784 - INFO - [data_generator.py:146] - Grand opening (7 days) generated for store store_008
+2025-08-25 08:37:49,796 - INFO - [data_generator.py:116] - Closure dates [Timestamp('2021-01-01 00:00:00'), Timestamp('2021-12-31 16:00:00'), Timestamp('2022-12-31 08:00:00'), Timestamp('2023-12-31 00:00:00')] generated for store store_009
+2025-08-25 08:37:49,796 - INFO - [data_generator.py:146] - Grand opening (5 days) generated for store store_009
+2025-08-25 08:37:49,797 - INFO - [data_generator.py:116] - Closure dates [Timestamp('2021-01-01 00:00:00'), Timestamp('2022-07-02 00:00:00'), Timestamp('2023-12-31 00:00:00')] generated for store store_010
+2025-08-25 08:37:49,797 - INFO - [data_generator.py:146] - Grand opening (7 days) generated for store store_010
+2025-08-25 08:37:49,797 - INFO - [data_generator.py:163] - Store events DataFrame created with 124 rows
+2025-08-25 08:38:20,523 - INFO - [data_generator.py:104] - Promotions generated successfully
+2025-08-25 08:38:20,528 - INFO - [data_generator.py:116] - Closure dates [Timestamp('2021-01-01 00:00:00'), Timestamp('2022-07-02 00:00:00'), Timestamp('2023-12-31 00:00:00')] generated for store store_001
+2025-08-25 08:38:20,528 - INFO - [data_generator.py:116] - Closure dates [Timestamp('2021-01-01 00:00:00'), Timestamp('2022-07-02 00:00:00'), Timestamp('2023-12-31 00:00:00')] generated for store store_002
+2025-08-25 08:38:20,539 - INFO - [data_generator.py:146] - Grand opening (9 days) generated for store store_002
+2025-08-25 08:38:20,539 - INFO - [data_generator.py:116] - Closure dates [Timestamp('2021-01-01 00:00:00'), Timestamp('2023-12-31 00:00:00')] generated for store store_003
+2025-08-25 08:38:20,539 - INFO - [data_generator.py:146] - Grand opening (9 days) generated for store store_003
+2025-08-25 08:38:20,539 - INFO - [data_generator.py:116] - Closure dates [Timestamp('2021-01-01 00:00:00'), Timestamp('2021-12-31 16:00:00'), Timestamp('2022-12-31 08:00:00'), Timestamp('2023-12-31 00:00:00')] generated for store store_004
+2025-08-25 08:38:20,539 - INFO - [data_generator.py:146] - Grand opening (5 days) generated for store store_004
+2025-08-25 08:38:20,539 - INFO - [data_generator.py:116] - Closure dates [Timestamp('2021-01-01 00:00:00'), Timestamp('2023-12-31 00:00:00')] generated for store store_005
+2025-08-25 08:38:20,539 - INFO - [data_generator.py:116] - Closure dates [Timestamp('2021-01-01 00:00:00'), Timestamp('2023-12-31 00:00:00')] generated for store store_006
+2025-08-25 08:38:20,539 - INFO - [data_generator.py:146] - Grand opening (8 days) generated for store store_006
+2025-08-25 08:38:20,539 - INFO - [data_generator.py:116] - Closure dates [Timestamp('2021-01-01 00:00:00'), Timestamp('2022-07-02 00:00:00'), Timestamp('2023-12-31 00:00:00')] generated for store store_007
+2025-08-25 08:38:20,539 - INFO - [data_generator.py:130] - Renovation of 29 days generated for store store_007
+2025-08-25 08:38:20,539 - INFO - [data_generator.py:146] - Grand opening (5 days) generated for store store_007
+2025-08-25 08:38:20,544 - INFO - [data_generator.py:116] - Closure dates [Timestamp('2021-01-01 00:00:00'), Timestamp('2021-10-01 12:00:00'), Timestamp('2022-07-02 00:00:00'), Timestamp('2023-04-01 12:00:00'), Timestamp('2023-12-31 00:00:00')] generated for store store_008
+2025-08-25 08:38:20,545 - INFO - [data_generator.py:130] - Renovation of 25 days generated for store store_008
+2025-08-25 08:38:20,545 - INFO - [data_generator.py:146] - Grand opening (4 days) generated for store store_008
+2025-08-25 08:38:20,545 - INFO - [data_generator.py:116] - Closure dates [Timestamp('2021-01-01 00:00:00'), Timestamp('2022-07-02 00:00:00'), Timestamp('2023-12-31 00:00:00')] generated for store store_009
+2025-08-25 08:38:20,545 - INFO - [data_generator.py:146] - Grand opening (5 days) generated for store store_009
+2025-08-25 08:38:20,545 - INFO - [data_generator.py:116] - Closure dates [Timestamp('2021-01-01 00:00:00'), Timestamp('2023-12-31 00:00:00')] generated for store store_010
+2025-08-25 08:38:20,545 - INFO - [data_generator.py:146] - Grand opening (5 days) generated for store store_010
+2025-08-25 08:38:20,545 - INFO - [data_generator.py:163] - Store events DataFrame created with 133 rows
+2025-08-25 08:49:36,046 - INFO - [data_generator.py:104] - Promotions generated successfully
+2025-08-25 08:49:36,060 - INFO - [data_generator.py:116] - Closure dates [Timestamp('2021-01-01 00:00:00'), Timestamp('2023-12-31 00:00:00')] generated for store store_001
+2025-08-25 08:49:36,060 - INFO - [data_generator.py:117] - 2 generated for closures and store_id store_001
+2025-08-25 08:49:36,060 - INFO - [data_generator.py:147] - Grand opening (9 days) generated for store store_001
+2025-08-25 08:49:36,060 - INFO - [data_generator.py:116] - Closure dates [Timestamp('2021-01-01 00:00:00'), Timestamp('2021-10-01 12:00:00'), Timestamp('2022-07-02 00:00:00'), Timestamp('2023-04-01 12:00:00'), Timestamp('2023-12-31 00:00:00')] generated for store store_002
+2025-08-25 08:49:36,060 - INFO - [data_generator.py:117] - 5 generated for closures and store_id store_002
+2025-08-25 08:49:36,060 - INFO - [data_generator.py:131] - Renovation of 9 days generated for store store_002
+2025-08-25 08:49:36,060 - INFO - [data_generator.py:116] - Closure dates [Timestamp('2021-01-01 00:00:00'), Timestamp('2021-10-01 12:00:00'), Timestamp('2022-07-02 00:00:00'), Timestamp('2023-04-01 12:00:00'), Timestamp('2023-12-31 00:00:00')] generated for store store_003
+2025-08-25 08:49:36,060 - INFO - [data_generator.py:117] - 5 generated for closures and store_id store_003
+2025-08-25 08:49:36,060 - INFO - [data_generator.py:147] - Grand opening (10 days) generated for store store_003
+2025-08-25 08:49:36,060 - INFO - [data_generator.py:116] - Closure dates [Timestamp('2021-01-01 00:00:00'), Timestamp('2021-12-31 16:00:00'), Timestamp('2022-12-31 08:00:00'), Timestamp('2023-12-31 00:00:00')] generated for store store_004
+2025-08-25 08:49:36,060 - INFO - [data_generator.py:117] - 4 generated for closures and store_id store_004
+2025-08-25 08:49:36,060 - INFO - [data_generator.py:147] - Grand opening (9 days) generated for store store_004
+2025-08-25 08:49:36,060 - INFO - [data_generator.py:116] - Closure dates [Timestamp('2021-01-01 00:00:00'), Timestamp('2021-10-01 12:00:00'), Timestamp('2022-07-02 00:00:00'), Timestamp('2023-04-01 12:00:00'), Timestamp('2023-12-31 00:00:00')] generated for store store_005
+2025-08-25 08:49:36,060 - INFO - [data_generator.py:117] - 5 generated for closures and store_id store_005
+2025-08-25 08:49:36,069 - INFO - [data_generator.py:131] - Renovation of 20 days generated for store store_005
+2025-08-25 08:49:36,069 - INFO - [data_generator.py:147] - Grand opening (7 days) generated for store store_005
+2025-08-25 08:49:36,069 - INFO - [data_generator.py:116] - Closure dates [Timestamp('2021-01-01 00:00:00'), Timestamp('2021-10-01 12:00:00'), Timestamp('2022-07-02 00:00:00'), Timestamp('2023-04-01 12:00:00'), Timestamp('2023-12-31 00:00:00')] generated for store store_006
+2025-08-25 08:49:36,069 - INFO - [data_generator.py:117] - 5 generated for closures and store_id store_006
+2025-08-25 08:49:36,069 - INFO - [data_generator.py:147] - Grand opening (9 days) generated for store store_006
+2025-08-25 08:49:36,069 - INFO - [data_generator.py:116] - Closure dates [Timestamp('2021-01-01 00:00:00'), Timestamp('2022-07-02 00:00:00'), Timestamp('2023-12-31 00:00:00')] generated for store store_007
+2025-08-25 08:49:36,069 - INFO - [data_generator.py:117] - 3 generated for closures and store_id store_007
+2025-08-25 08:49:36,069 - INFO - [data_generator.py:147] - Grand opening (8 days) generated for store store_007
+2025-08-25 08:49:36,069 - INFO - [data_generator.py:116] - Closure dates [Timestamp('2021-01-01 00:00:00'), Timestamp('2021-10-01 12:00:00'), Timestamp('2022-07-02 00:00:00'), Timestamp('2023-04-01 12:00:00'), Timestamp('2023-12-31 00:00:00')] generated for store store_008
+2025-08-25 08:49:36,069 - INFO - [data_generator.py:117] - 5 generated for closures and store_id store_008
+2025-08-25 08:49:36,069 - INFO - [data_generator.py:131] - Renovation of 22 days generated for store store_008
+2025-08-25 08:49:36,069 - INFO - [data_generator.py:147] - Grand opening (3 days) generated for store store_008
+2025-08-25 08:49:36,069 - INFO - [data_generator.py:116] - Closure dates [Timestamp('2021-01-01 00:00:00'), Timestamp('2021-12-31 16:00:00'), Timestamp('2022-12-31 08:00:00'), Timestamp('2023-12-31 00:00:00')] generated for store store_009
+2025-08-25 08:49:36,069 - INFO - [data_generator.py:117] - 4 generated for closures and store_id store_009
+2025-08-25 08:49:36,069 - INFO - [data_generator.py:147] - Grand opening (9 days) generated for store store_009
+2025-08-25 08:49:36,069 - INFO - [data_generator.py:116] - Closure dates [Timestamp('2021-01-01 00:00:00'), Timestamp('2021-12-31 16:00:00'), Timestamp('2022-12-31 08:00:00'), Timestamp('2023-12-31 00:00:00')] generated for store store_010
+2025-08-25 08:49:36,069 - INFO - [data_generator.py:117] - 4 generated for closures and store_id store_010
+2025-08-25 08:49:36,069 - INFO - [data_generator.py:147] - Grand opening (10 days) generated for store store_010
+2025-08-25 08:49:36,069 - INFO - [data_generator.py:164] - Store events DataFrame created with 167 rows
+2025-08-25 08:50:25,029 - INFO - [data_generator.py:104] - Promotions generated successfully
+2025-08-25 08:50:25,047 - INFO - [data_generator.py:116] - Closure dates [Timestamp('2021-01-01 00:00:00'), Timestamp('2023-12-31 00:00:00')] generated for store store_001
+2025-08-25 08:50:25,047 - INFO - [data_generator.py:117] - 2 generated for closures and store_id store_001
+2025-08-25 08:50:25,047 - INFO - [data_generator.py:131] - Renovation of 21 days generated for store store_001
+2025-08-25 08:50:25,050 - INFO - [data_generator.py:147] - Grand opening (7 days) generated for store store_001
+2025-08-25 08:50:25,050 - INFO - [data_generator.py:116] - Closure dates [Timestamp('2021-01-01 00:00:00'), Timestamp('2021-10-01 12:00:00'), Timestamp('2022-07-02 00:00:00'), Timestamp('2023-04-01 12:00:00'), Timestamp('2023-12-31 00:00:00')] generated for store store_002
+2025-08-25 08:50:25,050 - INFO - [data_generator.py:117] - 5 generated for closures and store_id store_002
+2025-08-25 08:50:25,051 - INFO - [data_generator.py:147] - Grand opening (9 days) generated for store store_002
+2025-08-25 08:50:25,051 - INFO - [data_generator.py:116] - Closure dates [Timestamp('2021-01-01 00:00:00'), Timestamp('2023-12-31 00:00:00')] generated for store store_003
+2025-08-25 08:50:25,051 - INFO - [data_generator.py:117] - 2 generated for closures and store_id store_003
+2025-08-25 08:50:25,051 - INFO - [data_generator.py:131] - Renovation of 29 days generated for store store_003
+2025-08-25 08:50:25,051 - INFO - [data_generator.py:147] - Grand opening (5 days) generated for store store_003
+2025-08-25 08:50:25,051 - INFO - [data_generator.py:116] - Closure dates [Timestamp('2021-01-01 00:00:00'), Timestamp('2021-10-01 12:00:00'), Timestamp('2022-07-02 00:00:00'), Timestamp('2023-04-01 12:00:00'), Timestamp('2023-12-31 00:00:00')] generated for store store_004
+2025-08-25 08:50:25,051 - INFO - [data_generator.py:117] - 5 generated for closures and store_id store_004
+2025-08-25 08:50:25,051 - INFO - [data_generator.py:147] - Grand opening (3 days) generated for store store_004
+2025-08-25 08:50:25,051 - INFO - [data_generator.py:116] - Closure dates [Timestamp('2021-01-01 00:00:00'), Timestamp('2021-12-31 16:00:00'), Timestamp('2022-12-31 08:00:00'), Timestamp('2023-12-31 00:00:00')] generated for store store_005
+2025-08-25 08:50:25,051 - INFO - [data_generator.py:117] - 4 generated for closures and store_id store_005
+2025-08-25 08:50:25,051 - INFO - [data_generator.py:116] - Closure dates [Timestamp('2021-01-01 00:00:00'), Timestamp('2021-10-01 12:00:00'), Timestamp('2022-07-02 00:00:00'), Timestamp('2023-04-01 12:00:00'), Timestamp('2023-12-31 00:00:00')] generated for store store_006
+2025-08-25 08:50:25,051 - INFO - [data_generator.py:117] - 5 generated for closures and store_id store_006
+2025-08-25 08:50:25,051 - INFO - [data_generator.py:147] - Grand opening (7 days) generated for store store_006
+2025-08-25 08:50:25,051 - INFO - [data_generator.py:116] - Closure dates [Timestamp('2021-01-01 00:00:00'), Timestamp('2021-10-01 12:00:00'), Timestamp('2022-07-02 00:00:00'), Timestamp('2023-04-01 12:00:00'), Timestamp('2023-12-31 00:00:00')] generated for store store_007
+2025-08-25 08:50:25,051 - INFO - [data_generator.py:117] - 5 generated for closures and store_id store_007
+2025-08-25 08:50:25,051 - INFO - [data_generator.py:131] - Renovation of 8 days generated for store store_007
+2025-08-25 08:50:25,060 - INFO - [data_generator.py:147] - Grand opening (10 days) generated for store store_007
+2025-08-25 08:50:25,060 - INFO - [data_generator.py:116] - Closure dates [Timestamp('2021-01-01 00:00:00'), Timestamp('2021-10-01 12:00:00'), Timestamp('2022-07-02 00:00:00'), Timestamp('2023-04-01 12:00:00'), Timestamp('2023-12-31 00:00:00')] generated for store store_008
+2025-08-25 08:50:25,062 - INFO - [data_generator.py:117] - 5 generated for closures and store_id store_008
+2025-08-25 08:50:25,062 - INFO - [data_generator.py:131] - Renovation of 13 days generated for store store_008
+2025-08-25 08:50:25,062 - INFO - [data_generator.py:147] - Grand opening (7 days) generated for store store_008
+2025-08-25 08:50:25,062 - INFO - [data_generator.py:116] - Closure dates [Timestamp('2021-01-01 00:00:00'), Timestamp('2021-10-01 12:00:00'), Timestamp('2022-07-02 00:00:00'), Timestamp('2023-04-01 12:00:00'), Timestamp('2023-12-31 00:00:00')] generated for store store_009
+2025-08-25 08:50:25,062 - INFO - [data_generator.py:117] - 5 generated for closures and store_id store_009
+2025-08-25 08:50:25,062 - INFO - [data_generator.py:147] - Grand opening (4 days) generated for store store_009
+2025-08-25 08:50:25,065 - INFO - [data_generator.py:116] - Closure dates [Timestamp('2021-01-01 00:00:00'), Timestamp('2022-07-02 00:00:00'), Timestamp('2023-12-31 00:00:00')] generated for store store_010
+2025-08-25 08:50:25,065 - INFO - [data_generator.py:117] - 3 generated for closures and store_id store_010
+2025-08-25 08:50:25,065 - INFO - [data_generator.py:147] - Grand opening (6 days) generated for store store_010
+2025-08-25 08:50:25,067 - INFO - [data_generator.py:164] - Store events DataFrame created with 170 rows
